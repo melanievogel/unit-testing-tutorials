@@ -4,11 +4,11 @@ using Xunit;
 
 namespace xUnitTutorial
 {
-    public class CalculatorTests
+    public class xUnitCalculatorTests
     {
         private readonly Calculator _sut;
 
-        public CalculatorTests()
+        public xUnitCalculatorTests()
         {
             _sut = new Calculator();
         }
