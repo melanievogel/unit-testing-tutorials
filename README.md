@@ -5,7 +5,8 @@ Unit tests in .NET environments usually are implemented with the following three
 
 Scenarios:
 
-* exception handling
+* exception handling: `Assert.Throws<NotImplementedException>(() => _sut.Import());`
+
 * usage of moq
 * parametrized tests
 * Assert if method called
